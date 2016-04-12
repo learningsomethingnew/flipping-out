@@ -93,3 +93,5 @@ ENV/
 .direnv
 .envrc
 .idea/
+
+SupportClasses/

@@ -1,14 +1,5 @@
 from InClass import Stack
 
-# capacity
-# len()
-# is_empty()
-# push(value)
-# pop()
-# peek()
-# find()
-
-
 def test_creating_new_stack_is_empty():
     stack = Stack()
     assert stack.is_empty()
