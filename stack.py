@@ -34,8 +34,7 @@ class Stack():
         if self.capacity_push():
             self.values.append(a_value)
             return self.values
-        else:
-            print("FAIL!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+
 
     """Returns the top most value without removing"""
 
@@ -89,6 +88,9 @@ class Stack():
             return [a_value]
         else:
             return a_value
+
+    def get_capacity(self):
+        return self.stack_capacity
 
 
 """try push pasts it's capacity"""

@@ -1,4 +1,4 @@
-from stacks import Stack, StackOverflowError, StackUnderflowError, StackInvalidCapacity
+from stack import Stack, StackOverflowError, StackUnderflowError, StackInvalidCapacity
 
 
 # capacity
@@ -21,7 +21,7 @@ def test_len():
 
 def test_push():
     push_value = 17
-    stack = Stack(10, 1)
+    stack = Stack(2, 1)
     temp_list = stack.push(push_value)
     print(temp_list)
     assert temp_list[1] == push_value
